@@ -131,29 +131,36 @@ html, body {height: 100%;}
 
 
         /* ===================  Header  Section  ==================================== */
-    header{width:124%;}
+    header{
+        width:124%;
+        box-shadow: 0px 10px 15px #b4b1c6;
+}
     #topbox{
     padding: 1em 2em 0;
     width: 74.3333%;
     color: black;
     }
+
     header {
     color: white;
-    padding:8px;
-    background-color: rgba(98,150,161,.95);
+    padding:9px;
+    background-color: rgb(98,150,161);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border: solid;
-    border-bottom: thick;
     }
     
     #classtitle>a:nth-child(2){
         font-size: 20px;
         text-align: center;
+        color: black;
     }
     
+    #topbox a {
+        color: black;
+    }
     #classtitle>a:nth-child(1){
         font-size: 20px;
+        color: black;
     }
 
     #header a:link{
@@ -180,7 +187,7 @@ html, body {height: 100%;}
     /* ===================  Student Info Section  =============================== */
     #studentInfo{  
     color: white;
-    background-color: rgba(98,150,161,.95);
+    background-color: rgb(98,150,161);
     /* 
     width: 16%;
     border: thick dashed #3B5998;
@@ -188,11 +195,10 @@ html, body {height: 100%;}
     margin-bottom: 1em;
     padding: .3em;
     width:124.9%;
-    border: solid white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-top: thin;
     color: white;
+    box-shadow:  0px 10px 15px #b4b1c6;
     }
 
     #studentGrade{
@@ -605,18 +611,18 @@ html, body {height: 100%;}
 
 
 /* ===================  Main Content Section  =============================== */
-/* -------------------  Calendar page         ------------------------------- */
+/* -------------------  Calendar page         ------------------------------- */
 .Absent{
-    color: #ffbfbf !important;
-    background: #aa0011 !important;
-    text-align: center;	
+    color: black !important;
+    background: #990033 !important;
+    text-align: center;
 }
 
 .assignment{
-    color: #cc4444;
-    margin:0;
-    padding: 0.125em 0.25em 0 0.25em;
-    text-align:center; 	 
+color: #cc4444;
+margin:0;
+padding: 0.125em 0.25em 0 0.25em;
+text-align:center;
 }
 
 .callInSick{
@@ -625,20 +631,20 @@ html, body {height: 100%;}
 }
 
 div.date{
-    float: right; 
-    text-align:center; 
-    border: 1px solid gray; 
-    border-width: 0 0 1px 1px; 
-    padding: 0.125em 0.25em 0 0.25em; 
-    margin:0;  
-    background: #F3F3F3; 
+    float: right;
+    text-align:center;
+    border: 1px solid gray;
+    border-width: 0 0 1px 1px;
+    padding: 0.125em 0.25em 0 0.25em;
+    margin:0;
+    background: #F3F3F3;
     width: 2em;
 }
 
 .Excused{
     color: #aa0011 !important;
     background: #ffadad !important;
-    text-align: center;	
+    text-align: center;
 }
 
 #fullCalendar{
@@ -649,30 +655,30 @@ div.date{
 .labComplete{
     color: #24B300 !important;
     background: #ffcfcf !important;
-    text-align: center;	
+    text-align: center;
 }
 
 .FreeDay{
     color: #24B300 !important;
     background: #aacfcf !important;
-    text-align: center;	
+    text-align: center;
 }
 
 .Late{
-    color: #24B300 !important;
-    background: #ddffdf !important;
-    text-align: center;	
+    color: black !important;
+    background: #9393CC !important;
+    text-align: center;
 }
 
 .Personal{
-    color: #aa0011 !important;
-    background: #ffcfcf !important;
-    text-align: center;	
+    color: black !important;
+    background: #B3D1F0 !important;
+    text-align: center;
 }
 
 .Present{
-    color: #24B300 !important;
-    background: #CCFFBF !important;
+    color: black !important;
+    background: #C5C5E3 !important;
     text-align: center;
 }
 
@@ -680,10 +686,11 @@ div.date{
     border: dashed medium #ff0000 !important;
 }
 .Sick{
-    color: #aa0011 !important;
-    background: #ffadad !important;
-    text-align: center;	
+    color: black !important;
+    background: #80B2E6 !important;
+    text-align: center;
 }
+
 
 .submitted{
     border: thin solid green;
@@ -692,15 +699,15 @@ div.date{
 .notSubmitted{
     border:thin solid red;
 }
-.TOPIC { 
-    color: #4444CC; 
-    text-align:center; 
-    padding: 0.125em 0.25em 0 0; 
-    margin:0;  
+.TOPIC {
+    color: #4444CC;
+    text-align:center;
+    padding: 0.125em 0.25em 0 0;
+    margin:0;
 }
 
 .VACA {
-    background-color: #dfdfff; /*#EABFFF;*/ 
+    background-color: #dfdfff; /*#EABFFF;*/
     font-style: italic;
 }
 
@@ -733,7 +740,7 @@ tr.days th.sat, tr.days th.sun {
     width:14%;
 }
 
-#calendar table tr.days th,  table tr.days th {
+#calendar table tr.days th,  table tr.days th {
     background-color: #224;
     color: #cce;
     font-weight: bold;
@@ -742,7 +749,7 @@ tr.days th.sat, tr.days th.sun {
 }
 
 #calendar table tr#title th {
-    background-color: #AAC; 
+    background-color: #AAC;
     color: black;
     border: 1px solid #242;
     font-size: 120%;
@@ -750,8 +757,8 @@ tr.days th.sat, tr.days th.sun {
 
 #calendar table td {
     vertical-align:top;
-    padding:3px; 
-    border: 0px solid gray; 
+    padding:10px;
+    border: 0px solid gray;
     border-width: 0 0 1px 1px;
     width:14%;
 }
@@ -763,27 +770,27 @@ tr.days th.sat, tr.days th.sun {
 #calendar table a {
     text-decoration: none;
     font-weight: bold;
-    display: block; 
+    display: block;
 }
 
-td.Sat div.date, td.Sun div.date{
+td.Sat div.date, td.Sun div.date{   
     border-width: 0;
-    color: gray; 
+    color: gray;
     background: transparent;
 }
 
 td.Jun div.date, td.Aug div.date{
-    border-width: 0; 
-    color: gray; 
+    border-width: 0;
+    color: gray;
     background: transparent;
-}	
+}
 
-#calendar table td.Sat, #calendar table td.Sun {
+#calendar table td.Sat, #calendar table td.Sun {   
     background: #ddd;
 }
 
 #calendar table td.lastMonth, #calendar table td.nextMonth, #calendar table td.prevMonth {
-    background: #AAB; 
+    background: #AAB;
     color: #889;
 }
 
@@ -792,11 +799,12 @@ td.Jun div.date, td.Aug div.date{
 }
 
 #calendar table td.atoday {
-    color: #C33;
-    font-weight: bold; 
-    background: #FF6; 
+    color: white;
+    font-weight: bold;
+    background: #D5ACAC;
     border: 1px solid black;
 }
+
 tr:nth-child(3) > th:nth-child(1){border-top-left-radius:8px;}
 tr:nth-child(3) > th:nth-child(7){border-top-right-radius:8px;}
 tr:nth-child(8) > td.Jan.days.Sun{border-bottom-left-radius: 8px}
@@ -822,10 +830,6 @@ tr:nth-child(30) > th:nth-child(7){border-top-right-radius:8px;}
 tr:nth-child(36) > td.May.days.Sun{border-bottom-left-radius: 8px}
 tr:nth-child(36) > td:nth-child(2){border-bottom-right-radius: 8px;}
 
-#vcalendar{
-    float:left;
-    width:74%;
-}
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Call in sick Page     ------------------------------- */
 .form{width:73%;}

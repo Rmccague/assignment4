@@ -8,9 +8,9 @@
  <meta name="description" content="This course provides an in depth exploration of the foundation of  Cascading Style Sheets and covering Web Usability to help you create a pleasing user experience for visitors to your site."/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- https://rerickso.w3.uvm.edu/education/blackboard/css/base.css -->
-<!-- https://algoldma.w3.uvm.edu/cs142/assignment4/algoldma.css -->
-<link href="https://algoldma.w3.uvm.edu/cs142/assignment4/algoldma.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="https://algoldma.w3.uvm.edu/cs142/assignment4/print_algoldma.css" rel="stylesheet" type="text/css" media="print" />
+<!-- https://rmccague.w3.uvm.edu/cs142/assignment4/rmccague.css -->
+<link href="https://rmccague.w3.uvm.edu/cs142/assignment4/rmccague.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://rmccague.w3.uvm.edu/cs142/assignment4/print_rmccague.css" rel="stylesheet" type="text/css" media="print" />
 <link href="https://rmccague.w3.uvm.edu/cs142/assignment4/rmccague.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/mainAdmin.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="shortcut icon" href="https://rerickso.w3.uvm.edu/education/blackboard/favicon.ico" >
@@ -64,11 +64,11 @@ $(function() {
 
 <aside id="studentInfo"> <!-- %^%^%^%^%^ studentInfo %^%^%^%^%^ -->
 <span id="studentName">
-Student: algoldma [<a href="https://webauth.uvm.edu/webauth/logout">logout</a>]
+Student: rmccague [<a href="https://webauth.uvm.edu/webauth/logout">logout</a>]
 </span>
-<span id="studentGrade" >Current <a href="grades.php">Grade</a>: 78</span>
+<span id="studentGrade" >Current <a href="grades.php">Grade</a>: 71.3</span>
 <span id="classRank">
-Rank: 28 of 45
+Rank: 31 of 45
 </span>
 </aside> <!-- %^%^%^%^%^ student info %^%^%^%^%^ -->
 
